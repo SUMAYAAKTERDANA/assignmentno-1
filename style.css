@@ -178,3 +178,123 @@ body {
     color: #666;
     font-size: 16px;
 }
+
+/* <!-- Secure Your Spot (Pricing) Section -->  */
+
+
+
+
+/* Section */
+
+.pricing{
+    padding:60px;
+}
+
+/* Title */
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    font-size:40px;
+}
+
+.section-title p{
+    color:gray;
+    margin-top:10px;
+}
+
+/* Cards Container */
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+/* Single Card */
+
+.pricing-card{
+    width:300px;
+    background:white;
+    padding:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+/* Highlight Middle Card */
+
+.active{
+    background:#0d1b2a;
+    color:white;
+}
+
+/* Plan Name */
+
+.plan{
+    color:gray;
+    font-size:14px;
+}
+
+.active .plan{
+    color:white;
+}
+
+/* Price */
+
+.pricing-card h3{
+    font-size:45px;
+    margin:10px 0;
+}
+
+/* List */
+
+ul{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+ul li{
+    margin-bottom:10px;
+}
+
+/* Button */
+
+button{
+    width:100%;
+    padding:12px;
+    background:blue;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+/* FOTERSECTION
+ */
+ footer{
+    background:black;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+
+hr{
+    margin:20px 0;
+}
+
+p{
+    font-size:14px;
+}
