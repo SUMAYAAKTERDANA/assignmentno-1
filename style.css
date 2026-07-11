@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ================= NAVBAR ================= */
+/*  NAVBAR  */
 
 .navbar {
     width: 100%;
@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 60px;
+    padding: 60px;
 }
 
 /* Logo */
@@ -50,15 +50,16 @@ body {
 /* Right Side */
 
 .nav-right {
-    width: 220px;
+    width: 200px;
     height: 90px;
-    background: #fff;
-
+    background: #2952e3;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* BANER SECTION */
 .banner {
     width: 100%;
     height: 100vh;
@@ -84,217 +85,292 @@ body {
     text-align: center;
     color: white;
     width: 700px;
-}
+ }
 
-.banner-content h1 {
-    font-size: 70px;
-    margin-bottom: 20px;
-}
+    .banner-content h1 {
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
 
-.banner-content span {
-    font-style: italic;
-}
+    .banner-content span {
+        font-style: italic;
+    }
 
-.banner-content p {
-    font-size: 18px
-}
+    .banner-content p {
+        font-size: 18px
+    }
 
-
-
-/* meeet section start */
-
-/* Flex Container */
-
-.speaker-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.section-title {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.section-title h2 {
-    font-size: 40px;
-    color: #222;
-}
+    .banner-btn {
+        width: 200px;
+        height: 90px;
+        background: #2952e3;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto 0;
+    }
 
 
-/* Speaker Card */
 
-.speaker-card {
-    flex: 0 0 calc(50% - 10px);
-    background: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
-}
-
-
-.speaker-card:hover {
-    transform: translateY(-8px);
-}
-
-/* Image */
-
-.speaker-card img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-}
-
-/* Speaker Info */
-
-.speaker-info {
-    padding: 20px;
-}
-
-/* Category */
-
-.track {
-    display: inline-block;
-    background: #2952e3;
-    color: white;
-    padding: 6px 15px;
-    border-radius: 20px;
-    font-size: 13px;
-    margin-bottom: 15px;
-}
-
-/* Name */
-
-.speaker-info h3 {
-    font-size: 24px;
-    margin: 15px 0 10px;
-}
-
-/* Title */
-
-.speaker-info p {
-    color: #666;
-    font-size: 16px;
-}
-
-/* <!-- Secure Your Spot (Pricing) Section -->  */
+    /* meeet section start */
 
 
 
 
-/* Section */
+    .speaker-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 
-.pricing{
-    padding:60px;
-}
+    .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
 
-/* Title */
+    .section-title h2 {
+        font-size: 40px;
+        color: #222;
+    }
 
-.section-title{
-    text-align:center;
-    margin-bottom:40px;
-}
 
-.section-title h2{
-    font-size:40px;
-}
+    /* Speaker Card */
 
-.section-title p{
-    color:gray;
-    margin-top:10px;
-}
+    .speaker-card {
+        flex: 0 0 calc(50% - 10px);
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    }
 
-/* Cards Container */
 
-.pricing-container{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-}
+    .speaker-card:hover {
+        transform: translateY(-8px);
+    }
 
-/* Single Card */
+    /* Image */
 
-.pricing-card{
-    width:300px;
-    background:white;
-    padding:20px;
-    border:1px solid #ddd;
-    border-radius:10px;
-}
+    .speaker-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+    }
 
-/* Highlight Middle Card */
+    /* Speaker Info */
 
-.active{
-    background:#0d1b2a;
-    color:white;
-}
+    .speaker-info {
+        padding: 20px;
+    }
 
-/* Plan Name */
+    /* Category */
 
-.plan{
-    color:gray;
-    font-size:14px;
-}
+    .track {
+        display: inline-block;
+        background: #2952e3;
+        color: white;
+        padding: 6px 15px;
+        border-radius: 20px;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
 
-.active .plan{
-    color:white;
-}
+    /* Name */
 
-/* Price */
+    .speaker-info h3 {
+        font-size: 24px;
+        margin: 15px 0 10px;
+    }
 
-.pricing-card h3{
-    font-size:45px;
-    margin:10px 0;
-}
+    /* Title */
 
-/* List */
+    .speaker-info p {
+        color: #666;
+        font-size: 16px;
+    }
 
-ul{
-    margin-top:20px;
-    margin-bottom:20px;
-}
+    /* <!-- Secure Your Spot (Pricing) Section -->  */
 
-ul li{
-    margin-bottom:10px;
-}
 
-/* Button */
 
-button{
-    width:100%;
-    padding:12px;
-    background:blue;
-    color:white;
-    border:none;
-    border-radius:5px;
-    cursor:pointer;
-}
 
-/* FOTERSECTION
+    /* Section */
+
+    .pricing {
+        padding: 60px;
+    }
+
+    /* Title */
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+    .section-title p {
+        color: gray;
+        margin-top: 10px;
+    }
+
+    /* Cards Container */
+
+    .pricing-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /* Single Card */
+
+    .pricing-card {
+        width: 300px;
+        background: white;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    /* Highlight Middle Card */
+
+    .active {
+        background: #0d1b2a;
+        color: white;
+    }
+
+    /* Plan Name */
+
+    .plan {
+        color: gray;
+        font-size: 14px;
+    }
+
+    .active .plan {
+        color: white;
+    }
+
+    /* Price */
+
+    .pricing-card h3 {
+        font-size: 45px;
+        margin: 10px 0;
+    }
+
+    /* List */
+
+    ul {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    ul li {
+        margin-bottom: 10px;
+    }
+
+    /* Button */
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* chalenging part */
+    .hackathon {
+        background: #101828;
+        color: white;
+        padding: 80px 20px;
+    }
+
+    .hackathon-container {
+        max-width: 1100px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .hackathon h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .hackathon p {
+        color: #cbd5e1;
+        line-height: 1.8;
+        margin-bottom: 40px;
+    }
+
+    .hackathon-cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        background: #1e293b;
+        width: 250px;
+        padding: 25px;
+        border-radius: 12px;
+    }
+
+    .card h3 {
+        margin-bottom: 10px;
+    }
+
+    button {
+        background: #7c3aed;
+        color: white;
+        border: none;
+        padding: 15px 35px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    button:hover {
+        background: #6d28d9;
+    }
+
+
+
+
+
+
+
+    /* FOTERSECTION
  */
- footer{
-    background:black;
-    color:white;
-    padding:30px;
-    text-align:center;
-}
+    footer {
+        background: black;
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
 
-h2{
-    margin-bottom:20px;
-}
+    h2 {
+        margin-bottom: 20px;
+    }
 
-a{
-    color:white;
-    text-decoration:none;
-    margin:10px;
-}
+    a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
 
-hr{
-    margin:20px 0;
-}
+    hr {
+        margin: 20px 0;
+    }
 
-p{
-    font-size:14px;
-}
+    p {
+        font-size: 14px;
+    }
