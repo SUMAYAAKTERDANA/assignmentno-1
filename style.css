@@ -85,292 +85,294 @@ body {
     text-align: center;
     color: white;
     width: 700px;
- }
+}
 
-    .banner-content h1 {
-        font-size: 55px;
-        margin-bottom: 20px;
-    }
+.banner-content h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
 
-    .banner-content span {
-        font-style: italic;
-    }
+.banner-content span {
+    font-style: italic;
+}
 
-    .banner-content p {
-        font-size: 18px
-    }
+.banner-content p {
+    font-size: 18px
+}
 
-    .banner-btn {
-        width: 200px;
-        height: 90px;
-        background: #2952e3;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 30px auto 0;
-    }
+.banner-btn {
+    width: 200px;
+    height: 90px;
+    background: #2952e3;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 0;
+}
 
 
 
-    /* meeet section start */
+/* meeet section start */
 
 
 
 
-    .speaker-container {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
+.speaker-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
-    .section-title {
-        text-align: center;
-        margin-bottom: 40px;
-    }
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
-    .section-title h2 {
-        font-size: 40px;
-        color: #222;
-    }
+.section-title h2 {
+    font-size: 40px;
+    color: #222;
+}
 
 
-    /* Speaker Card */
+/* Speaker Card */
 
-    .speaker-card {
-        flex: 0 0 calc(50% - 10px);
-        background: #fff;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
-    }
+.speaker-card {
+    flex: 0 0 calc(50% - 10px);
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
 
 
-    .speaker-card:hover {
-        transform: translateY(-8px);
-    }
+.speaker-card:hover {
+    transform: translateY(-8px);
+}
 
-    /* Image */
+/* Image */
 
-    .speaker-card img {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        display: block;
-    }
+.speaker-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
 
-    /* Speaker Info */
+/* Speaker Info */
 
-    .speaker-info {
-        padding: 20px;
-    }
+.speaker-info {
+    padding: 20px;
+}
 
-    /* Category */
+/* Category */
 
-    .track {
-        display: inline-block;
-        background: #2952e3;
-        color: white;
-        padding: 6px 15px;
-        border-radius: 20px;
-        font-size: 13px;
-        margin-bottom: 15px;
-    }
+.track {
+    display: inline-block;
+    color: blue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
 
-    /* Name */
+/* Name */
 
-    .speaker-info h3 {
-        font-size: 24px;
-        margin: 15px 0 10px;
-    }
+.speaker-info h3 {
+    font-size: 24px;
+    margin: 15px 0 10px;
+}
 
-    /* Title */
+/* Title */
 
-    .speaker-info p {
-        color: #666;
-        font-size: 16px;
-    }
+.speaker-info p {
+    color: #666;
+    font-size: 16px;
+}
 
-    /* <!-- Secure Your Spot (Pricing) Section -->  */
+/* <!-- Secure Your Spot (Pricing) Section -->  */
 
 
 
 
-    /* Section */
+/* Section */
 
-    .pricing {
-        padding: 60px;
-    }
+.pricing {
+    padding: 60px;
+}
 
-    /* Title */
+/* Title */
 
-    .section-title {
-        text-align: center;
-        margin-bottom: 40px;
-    }
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
-    .section-title h2 {
-        font-size: 40px;
-    }
+.section-title h2 {
+    font-size: 40px;
+}
 
-    .section-title p {
-        color: gray;
-        margin-top: 10px;
-    }
-
-    /* Cards Container */
-
-    .pricing-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    /* Single Card */
-
-    .pricing-card {
-        width: 300px;
-        background: white;
-        padding: 20px;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-    }
-
-    /* Highlight Middle Card */
-
-    .active {
-        background: #0d1b2a;
-        color: white;
-    }
-
-    /* Plan Name */
+.section-title p {
+    color: gray;
+    margin-top: 10px;
+}
 
-    .plan {
-        color: gray;
-        font-size: 14px;
-    }
+/* Cards Container */
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Single Card */
+
+.pricing-card {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Highlight Middle Card */
+
+.active {
+    background: #0d1b2a;
+    color: white;
+}
+
+/* Plan Name */
 
-    .active .plan {
-        color: white;
-    }
+.plan {
+    color: gray;
+    font-size: 14px;
+}
 
-    /* Price */
+.active .plan {
+    color: white;
+}
 
-    .pricing-card h3 {
-        font-size: 45px;
-        margin: 10px 0;
-    }
+/* Price */
 
-    /* List */
+.pricing-card h3 {
+    font-size: 45px;
+    margin: 10px 0;
+}
 
-    ul {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+/* List */
 
-    ul li {
-        margin-bottom: 10px;
-    }
+ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-    /* Button */
+ul li {
+    margin-bottom: 10px;
+}
 
-    button {
-        width: 100%;
-        padding: 12px;
-        background: blue;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
+/* Button */
 
-    /* chalenging part */
-    .hackathon {
-        background: #101828;
-        color: white;
-        padding: 80px 20px;
-    }
+button {
+    width: 100%;
+    padding: 12px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-    .hackathon-container {
-        max-width: 1100px;
-        margin: auto;
-        text-align: center;
-    }
+/* chalenging part */
+.hackathon {
+    background: #101828;
+    color: white;
+    padding: 80px 20px;
+}
 
-    .hackathon h2 {
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
+.hackathon-container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
 
-    .hackathon p {
-        color: #cbd5e1;
-        line-height: 1.8;
-        margin-bottom: 40px;
-    }
+.hackathon h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
 
-    .hackathon-cards {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-        margin-bottom: 40px;
-    }
+.hackathon p {
+    color: #cbd5e1;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
 
-    .card {
-        background: #1e293b;
-        width: 250px;
-        padding: 25px;
-        border-radius: 12px;
-    }
+.hackathon-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
 
-    .card h3 {
-        margin-bottom: 10px;
-    }
+.card {
+    background: #1e293b;
+    width: 250px;
+    padding: 25px;
+    border-radius: 12px;
+}
 
-    button {
-        background: #7c3aed;
-        color: white;
-        border: none;
-        padding: 15px 35px;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 18px;
-    }
+.card h3 {
+    margin-bottom: 10px;
+}
 
-    button:hover {
-        background: #6d28d9;
-    }
 
+button {
+    background: #7c3aed;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
 
 
 
+button:hover {
+    background: #6d28d9;
+}
 
 
 
-    /* FOTERSECTION
+
+
+
+
+/* FOTERSECTION
  */
-    footer {
-        background: black;
-        color: white;
-        padding: 30px;
-        text-align: center;
-    }
+footer {
+    background: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
 
-    h2 {
-        margin-bottom: 20px;
-    }
+h2 {
+    margin-bottom: 20px;
+}
 
-    a {
-        color: white;
-        text-decoration: none;
-        margin: 10px;
-    }
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
 
-    hr {
-        margin: 20px 0;
-    }
+hr {
+    margin: 20px 0;
+}
 
-    p {
-        font-size: 14px;
-    }
+p {
+    font-size: 14px;
+}
